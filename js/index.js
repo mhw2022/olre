@@ -5,7 +5,7 @@ $(document).ready(function(){
         $('.menu_bg').show(); 
         $('.sidebar_menu').show().animate({
             right:0
-        });  
+        });
     });
     $('#header_wrap .close_btn>a').on('click', function(){
         $('.menu_bg').hide(); 
@@ -13,7 +13,7 @@ $(document).ready(function(){
             right: '-' + 100 + '%'
                     },function(){
                         $('.sidebar_menu').hide();          
-                    });  
+                    });
     });
 
 });

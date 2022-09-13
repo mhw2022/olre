@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <!-- 카카오 뷰포트 설정
-       <meta data-n-head="ssr" name="viewport" content="user-scalable=no, width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1.0, viewport-fit=cover" 엣지가 있는 기기들에 전체페이지를 다 보여주기 위해서 viewport-fit=cover을 씀>-->
+  <!-- 카카오 뷰포트 설정 <meta data-n-head="ssr" name="viewport" content="user-scalable=no, width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1.0, viewport-fit=cover" 엣지가 있는 기기들에 전체페이지를 다 보여주기 위해서 viewport-fit=cover을 씀>-->
 
   <title>Olfactory Records</title>
 
@@ -39,29 +37,26 @@
   <script src="js/index.js"></script>
 
   <!--스와이퍼-->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 </head>
 
 <body>
   <div id="container">
-    <div id="notice_wrap">
-      <!--공지바 시작-->
+    <div id="notice_wrap">      <!--공지바 시작-->
       <div class="notice">
         <p class="content">
           <a href="#">Olfactory Records Launching Event - 올레 런칭 이벤트 1+1 행사 안녕하세요 안녕하세요 Olfactory Records Launching Event
             - 올레 런칭 이벤</a>
         </p>
-        <p class="close_btn"> <!--없애기 고민해보자.-->
+        <p class="close_btn"> <!--서브메뉴 때문에 없앨지 말지 고민-->
           <a href="#">
             <img src="images/important/close_bt_wn.png" alt="닫기">
           </a>
         </p>
       </div>
-    </div>
-    <!--공지 종료-->
-    <div id="header_wrap">
-      <!--헤더 시작-->
+    </div>    <!--공지 종료-->
+    <div id="header_wrap">      <!--헤더 시작-->
       <div class="header">
         <h1 class="logo">
           <a href="index.html">
@@ -129,10 +124,10 @@
         </ul>
         <div class="util">
           <button class="login">
-            <a href="#">로그인</a>
+            <a href="javascript:void(0);">로그인</a>
           </button>
           <button class="cart">
-            <a href="#">장바구니</a>
+            <a href="javascript:void(0);">장바구니</a>
           </button>
         </div>
         <div class="mobile_menu">
@@ -146,7 +141,7 @@
           <ul class="menu_wrap">
             <li>
               <h1 class="logo">
-                <a href="#">
+                <a href="index.html">
                   <img src="images/important/logo_bk.png" alt="Olfactory Records">
                 </a>
               </h1>
@@ -180,21 +175,19 @@
           </ul>
         </div>
       </div>
-    </div>
-    <!--헤더 종료-->
-    <div id="banner_wrap">
-      <!--배너 시작-->
+    </div>    <!--헤더 종료-->
+    <div id="banner_wrap">      <!--배너 시작-->
       <a href="#">
         <div class="pc_only">
           <video muted="" preload="true" loop autoplay webkit-playsinline="webkit-playsinline"
             playsinline="playsinline">
-            <source src="media/banner_edit.mp4" type="video/mp4">
+            <source src="media/olre_pc_only.mp4" type="video/mp4">
           </video>
         </div>
         <div class="mobile_only">
           <video muted="" preload="true" loop autoplay webkit-playsinline="webkit-playsinline"
             playsinline="playsinline">
-            <source src="media/olre_mobile.mp4" type="video/mp4">
+            <source src="media/olre_mobile_only.mp4" type="video/mp4">
           </video>
         </div>
         <div class="banner">
@@ -202,10 +195,8 @@
           <p class="b_title">Turn on the music.</p>
         </div>
       </a>
-    </div>
-    <!--배너 종료-->
-    <div id="section1_wrap">
-      <!--섹션1 시작-->
+    </div>    <!--배너 종료-->
+    <div id="section1_wrap">      <!--섹션1 시작-->
       <div class="section1">
         <div class="pc_only">
           <div class="s1_left">
@@ -216,7 +207,7 @@
               <li class="s1_r_top_1">
                 <a href="#">
                   <p class="s1_position">Surfin' USA <span class="hover_hash">#제주도 #씨솔트 #청귤</span></p>
-                  <!--                  <img src="images/index/section1/s1_1_surfin_usa.png" alt="">-->
+                  <!--<img src="images/index/section1/s1_1_surfin_usa.png" alt="">-->
                 </a>
               </li>
               <li class="s1_r_top_2">
@@ -228,7 +219,7 @@
               <li class="s1_r_top_3">
                 <a href="#">
                   <p class="s1_position">None Of Your Concern <span class="hover_hash">#제주도 #씨솔트 #청귤</span></p>
-                  <!--                  <img src="images/index/section1/s1_2_none_of_your_concern.png" alt="">-->
+                  <!--<img src="images/index/section1/s1_2_none_of_your_concern.png" alt="">-->
                 </a>
               </li>
               <li class="s1_r_top_4">
@@ -237,53 +228,55 @@
             </ul>
             <ul class="s1_r_bottom">
               <li class="s1_r_bottom_1">
-                <p> 음악과 향은 나를 표현할 수 있는 수단 중 하나입니다. 우리는 BGM으로 기분을 나타내거나 향수로 계절이나 패션에 맞춰 내 이미지를 표현합니다. 다양한 표현 수단 중 음악과 향,
-                  두
-                  가지를 섞어 예술을 즐기고 나만의 감각적인 무드를 나타낼 수 있는 Olfactory Records의 향기입니다.</p>
+                <p> 음악과 향은 나를 표현할 수 있는 수단 중 하나입니다.
+                  우리는 BGM으로 기분을 나타내거나 향수로 계절이나 패션에 맞춰 내 이미지를 표현합니다.
+                  다양한 표현 수단 중 음악과 향,
+                  두 가지를 섞어 예술을 즐기고 나만의 감각적인 무드를 나타낼 수 있는 Olfactory Records의 향기입니다.
+                </p>
               </li>
               <li class="s1_r_bottom_2">
                 <a href="#">
                   <p class="s1_position">제주도의 푸른밤 <span class="hover_hash">#제주도 #씨솔트 #청귤</span></p>
-                  <!--                  <img src="images/s1_3_jeju.png" alt="제주도의 푸른밤">-->
+                  <!--<img src="images/s1_3_jeju.png" alt="제주도의 푸른밤">-->
                 </a>
               </li>
               <li class="s1_r_bottom_3">
                 <a href="#">
                   <p class="s1_position">The Weekend <span class="hover_hash">#제주도 #씨솔트 #청귤</span></p>
-                  <!--                  <img src="images/s1_4_the_weekend.png" alt="The Weekend">-->
+                  <!--<img src="images/s1_4_the_weekend.png" alt="The Weekend">-->
                 </a>
               </li>
             </ul>
           </div>
         </div>
         <div class="mobile_only">
-          <p class="title">
-            <img src="images/index/section1/mobile/mobile_s1_title.png" alt="Our SCENT LIST">
-          </p>
           <!-- Swiper -->
           <div class="swiper mySwiper">
+            <p class="title">
+              <img src="images/index/section1/mobile/mobile_s1_title.png" alt="Our SCENT LIST">
+            </p>
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <a href="#">
-                  <p class="title">Surfin' USA <br> <span class="hash">#코코넛 #캘리포니아 #망고스틴</span></p>
+                  <p class="title">Surfin' USA <span class="hash">#코코넛 #캘리포니아 #망고스틴</span></p>
                   <img src="images/surfinusa.jpg" alt="">
                 </a>
               </div>
               <div class="swiper-slide">
                 <a href="#">
-                  <p class="title">None Of Your Concern <br> <span class="hash">#코코넛 #캘리포니아 #망고스틴</span></p>
+                  <p class="title">None Of Your Concern <span class="hash">#코코넛 #캘리포니아 #망고스틴</span></p>
                   <img src="images/noneofyourconcern.jpg" alt="">
                 </a>
               </div>
               <div class="swiper-slide">
                 <a href="#">
-                  <p class="title">제주도의 푸른밤 <br> <span class="hash">#코코넛 #캘리포니아 #망고스틴</span></p>
-                  <img src="images/jeju.jpg" alt="">
+                  <p class="title">제주도의 푸른밤 <span class="hash">#코코넛 #캘리포니아 #망고스틴</span></p>
+                  <img src="images/jeju1.jpg" alt="">
                 </a>
               </div>
               <div class="swiper-slide">
                 <a href="#">
-                  <p class="title">The Weekend <br> <span class="hash">#코코넛 #캘리포니아 #망고스틴</span></p>
+                  <p class="title">The Weekend <span class="hash">#코코넛 #캘리포니아 #망고스틴</span></p>
                   <img src="images/theweekend.jpg" alt="">
                 </a>
               </div>
@@ -312,10 +305,8 @@
           </div>
         </div>
       </div>
-    </div>
-    <!--섹션1 종료-->
-    <div id="section2_wrap">
-      <!--섹션2 시작-->
+    </div>    <!--섹션1 종료-->
+    <div id="section2_wrap">      <!--섹션2 시작-->
       <div class="section2">
         <div class="s2_left">
           <ul class="s2_l_contents">
@@ -340,7 +331,7 @@
             <li class="padding_tb10"><img src="images/index/section2/for-r.png" alt="R"></li>
             <li>
               <img src="images/index/section2/you-img.png" alt="이미지">
-              <img class="hover" src="images/index/section2/for-img1.png" alt="이미지">
+              <img class="hover" src="images/index/section2/you_img_hover.png" alt="이미지">
             </li>
             <li><img src="images/index/section2/you-y.png" alt="Y"></li>
             <li><img src="images/index/section2/you-o.png" alt="O"></li>
@@ -362,17 +353,16 @@
           <button><a href="#">VIEW MORE</a></button>
         </div>
       </div>
-    </div>
-    <!--섹션2 종료-->
+    </div>    <!--섹션2 종료-->
     <div id="section3_wrap">
       <!--섹션3 시작-->
       <div class="section3">
         <div class="s3_left">
-          <p class="condor">what's new</p>
+<!--          <p class="condor">what's new</p>
           <div class="w_line"></div>
           <p class="s3_p1">8월, 여러분 앞으로 찾아갑니다.</p>
           <p class="s3_p2">Olfactory Records만의 감성으로 전하는 새로운 향</p>
-          <p class="s_title">Surfin' USA</p>
+          <p class="s_title">Surfin' USA</p>-->
         </div>
         <div class="s3_center">
           <a href="#">
@@ -391,8 +381,7 @@
           </a>
         </div>
       </div>
-    </div>
-    <!--섹션3 종료-->
+    </div>    <!--섹션3 종료-->
     <div id="footer_wrap">
       <!--푸터 시작-->
       <div class="footer">
@@ -434,8 +423,7 @@
           </p>
         </div>
       </div>
-    </div>
-    <!--푸터 종료-->
+    </div>    <!--푸터 종료-->
   </div>
 </body>
 
