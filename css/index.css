@@ -282,7 +282,12 @@ body {
 
     position: fixed;
     top:0;
+    left: 0;
+    right: 0;
     z-index: 999;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 .sidebar_menu{
     display: none;
@@ -293,8 +298,12 @@ body {
     
     position: fixed;
     top:0;
+    left: 0;
     right: -100%;
-    z-index: 999;    
+    z-index: 999;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .sidebar_menu ul {
