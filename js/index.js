@@ -6,6 +6,7 @@ $(document).ready(function(){
         $('.sidebar_menu').show().animate({
             right:0
         });
+        $('#container').parent().addClass("not_scroll");
     });
     $('#header_wrap .close_btn>a').on('click', function(){
         $('.menu_bg').hide(); 
@@ -13,7 +14,8 @@ $(document).ready(function(){
             right: '-' + 100 + '%'
                     },function(){
                         $('.sidebar_menu').hide();          
-                    });
+        });
+        $('#container').parent().removeClass("not_scroll");
     });
 
 });
