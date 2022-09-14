@@ -201,11 +201,12 @@ body {
 }
 /************서브메뉴 종료************/
 
-#header_wrap .header .util button {
+#header_wrap .header .util h2 {
+    display: inline-block;
     padding: 0 5px;
 }
 
-#header_wrap .header .util button a {
+#header_wrap .header .util h2 a {
     display: block;
     padding: 5px 15px;
     background-color: #cccad6;
@@ -546,7 +547,7 @@ body {
     border-radius: 0 0 200px 200px;
     height: 100%;
     background: url(../images/surfinusa.jpg) no-repeat center center;
-    box-sizing: contain;
+    background-size: cover;
 }
 
 .s1_r_top_2 {
@@ -564,7 +565,7 @@ body {
     border-radius: 0 0 200px 200px;
     height: 100%;
     background: url(../images/noneofyourconcern.jpg) no-repeat center center;
-    box-sizing: contain;
+    background-size: cover;
 }
 
 .s1_r_top_4 {
@@ -636,7 +637,7 @@ body {
     border-radius: 200px 200px 0 0;
     height: 100%;
     background: url(../images/jeju.jpg) no-repeat center center;
-    box-sizing: contain;
+    background-size: cover;
 }
 
 .s1_r_bottom_3 {
@@ -649,7 +650,7 @@ body {
     border-radius: 200px 200px 0 0;
     height: 100%;
     background: url(../images/s1_4_the_weekend.png) no-repeat center center;
-    box-sizing: contain;
+    background-size: cover;
 }
 
 .mobile_only {
@@ -847,11 +848,12 @@ body {
 }
 
 .s2_right .s_contents {
-    letter-spacing: 0.22%;
+    letter-spacing: .05em;
     line-height: 21px;
 }
 
-.s2_right button {
+.s2_right h2 {
+    display: inline-block;
     padding-top: 8.57%; /*60px=700px의 8.57%*/
 }
 
