@@ -1104,8 +1104,9 @@ body {
 /*모바일*/
 @media (max-width:390px) {
     #section3_wrap .section3 .s3_left {
-        background: url(../images/MOBILE_S3_TITLE_BG.png) no-repeat center center;
-        height: 320px;
+        background: url(../images/index/section3/mobile/s3_maintitle_m.png) no-repeat center center;
+        background-size: contain;
+        height: 340px;
         padding: 0px;
         margin: 0px;
     }
