@@ -427,7 +427,10 @@ body {
 }
 
 /*태블릿*/
-@media (max-width:1050px) and (min-width:391px) {
+@media (max-width:1050px) and (min-width:391px) { 
+    #banner_wrap a .banner p {
+        display: none;
+    }
 }
 
 /*모바일*/
@@ -439,7 +442,7 @@ body {
     #banner_wrap a .mobile_only {
         display: block;
     }
-    #banner_wrap .banner {
+    #banner_wrap a .banner {
         width: 89.74%; /*350px=390px의 89.74%*/
     
         font-family: Condor, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
@@ -448,30 +451,26 @@ body {
         color: rgba(14, 14, 14, 1); 
     }
     
-    #banner_wrap .banner p {
+    #banner_wrap a .banner p {
         border-radius: 40px;
         background-color: #ccc8e3;
+        padding: 8px 15px;
     
         position: absolute;
     }
     
-    #banner_wrap .banner .olre {
-        font-size: 24px;
-        line-height: 36px;
-        padding: 5px 25px;
-    
+    #banner_wrap a .banner .olre {
+        font-size: 25px;
+        line-height: 28px;
+
         top: 20%;
-        left: 10%;
+        left: 50%;
     }
     
-    #banner_wrap .banner .b_title {
-        width: 260px;
-        font-size: 20px;
-        line-height: 30px;   
+    #banner_wrap a .banner .b_title {
+        font-size: 22px;
+        line-height: 25px;   
         font-style: italic;
-
-        padding: 5px 0;
-
     
         top: 60%;
         left: 50%;
@@ -1067,19 +1066,23 @@ body {
 
     .section3 a .item_title {
         order: 2;
-        padding-top: 20px;
         width: 100%;
+        box-sizing: border-box;
+        padding: 20px 30px 0 30px;
     }
 
     .section3 a .item_price {
         order: 3;
-        padding: 20px 0;
         width: 100%;
+        box-sizing: border-box;
+        padding: 20px 30px;
     }
 
     .section3 a .item_produce {
         order: 4;
         width: 100%;
+        box-sizing: border-box;
+        padding: 0 30px;
     }
 
     .s3_center a img {
@@ -1226,7 +1229,30 @@ body {
 
 /*태블릿*/
 @media (max-width:1050px) and (min-width:391px) {
+    #footer_wrap .footer {
+        width: 89.74%; /*350px=390px의 89.74%*/
+        padding: 40px 0; /*패딩 변경 가능*/
+    }
 
+    .m_delete {
+        display: none;
+    }
+
+    #footer_wrap .footer .f_left {
+        width: 100%;
+    }
+
+    .f_left .f_menu {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    
+        line-height: 22.5px;
+    }
+
+    #footer_wrap .footer .f_right {
+        width: 100%;
+    }
 }
 
 /*모바일*/
